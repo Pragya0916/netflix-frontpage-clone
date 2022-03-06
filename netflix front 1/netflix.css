@@ -1,0 +1,145 @@
+body{
+    margin: 0%;
+}
+
+.img{
+   /* background: url(https://assets.nflxext.com/ffe/siteui/vlv3/b77751c7-0e02-4941-af39-30514ff6b3e2/d0f20efa-f2f3-49d4-92b2-b3b1f6312af5/IN-en-20211026-popsignuptwoweeks-perspective_alpha_website_small.jpg); */
+
+    background-image: linear-gradient( to bottom,rgb(26, 20, 20, 0.6), rgba(12, 13, 12, 0.6)),url(https://assets.nflxext.com/ffe/siteui/vlv3/b77751c7-0e02-4941-af39-30514ff6b3e2/d0f20efa-f2f3-49d4-92b2-b3b1f6312af5/IN-en-20211026-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+   height: 150vh;
+}
+
+.head{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 700px;
+    height: 100px;
+    top: 220px;
+   left: 28%;
+    position: absolute;
+    font-weight: bolder;
+    font-display: bold;
+    font-size: 66px;
+}
+
+.nav{
+    float: left;
+    height: 90px;
+    width: 100%;
+    /* background-color: black; */
+    background-image: linear-gradient( to top,rgb(26, 20, 20,0.6), rgba(12, 13, 12, 0.5) );
+}
+nf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{    
+     height: 7em;
+     margin-left: 1.99em;
+    ;
+}
+/* .form{
+    position: absolute;
+} */
+
+ .list{
+     right: 12%;
+     color: white;
+     position: absolute;
+     background-color: black;
+     border: none;
+     top: 25px;
+     font-size: 14px;
+     height: 35px;
+     width: 90px;
+     padding: 5px;
+     text-align: center;
+     border-radius: 3px;
+     border: 1px white solid;
+ }
+
+ .signin{
+     color: white;
+     background-color: rgb(214, 6, 6) ;
+     border: none;
+     top: 25px;
+     height: 35px ;
+     width: 90px;
+     padding: 5px;
+     text-align: center;
+     right: 4%;
+     position: absolute;
+     border-radius: 4px;
+     font-size: 15px;
+     font-weight: 400;
+
+ }
+
+ .con{
+     position: absolute;
+     color: white;
+     font-size: 27px;
+     left: 38%;
+     top: 390px;
+     width: 500px;
+     
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+     
+ }
+ .con2{
+position: absolute;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+left:30%;
+top:470px;
+width:700px;
+font-size: 20px;
+font-weight: 400;
+
+ }
+ .data{
+    
+     position: absolute;
+    left: 26%;
+   
+    
+ }
+.data input{
+    position: relative;
+    top: 515px;
+    height: 70px;
+    width: 570px;
+padding-left: 9px;
+    font-size:17px ;
+    border-radius: 3px;
+    background-color: white;
+}
+
+input:focus{
+    outline: none;
+}
+.data button{
+/* font-weight: bold; */
+    position: absolute;
+    top: 516px;
+    background-color: rgb(214, 6, 6) ;
+    border: none;
+    height: 74px;
+    border-radius: 3px;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+   
+}
+button:hover{
+    cursor: pointer;
+    background-color:  rgb(224, 4, 4);
+}
+
+
+
